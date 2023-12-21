@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply text-lg
+}
+
+.projects img {
+    width: 100%;
+}
+
+/* color */
+.bg-primary {
+    background: #c1cbcbf1;
+}
+
+.bg-secondery {
+    background: #616262;
+}
+
+.bg-accent {
+    background: #0d0d0e;
+}
+
+.text-accent {
+    color: #0f0f0f;
+}
+
+
+nav li a {
+    @apply px-4 py-5 text-lg;
+   
+}
+
+nav li a:hover {
+    color: #0c6084;
+    text-shadow: #030303;
+}
+
+.mobile-nav {
+    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-white  duration-500;
+}
+
+
+/* hero */
+h1 {
+    font-family: 'Pacifico', cursive;
+    line-height: 1.5 !important;
+}
+
+
+/* background images*/
+
+#bg {
+     background-image:
+     /*linear-gradient(
+        45deg,
+        rgba(45, 46, 45, 0.585),
+        rgba(193, 240, 248, 0.7)
+     ),*/
+      url(../src/assets/49.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-size:cover;
+      
+}
+/*#footerBg{
+    background-image:
+      url(../src/assets/CC.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-size:cover;
+}*/
+#about{
+    background-image:
+    url(../src/assets/a1.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-size:cover;
+}
+/*#blog{
+    background-image:
+    url(../src/assets/aaa.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-size:cover;
+}*/
+#projects{
+    background-image:
+    url(../src/assets/im.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-size:cover;
+}
+
+#footer{
+   /* background-image:
+    url(../src/assets/a.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-size:cover;*/
+   background-color: rgb(12, 12, 12);
+}
+/*.flex:hover{
+    color: aliceblue;
+}*/
+
+
